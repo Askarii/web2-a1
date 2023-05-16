@@ -35,6 +35,10 @@
   <h1 class="text-center mt-4">Contact Hires</h1>
   <p class="text-center">For any questions, comments, or concerns, please don't hesitate to contact us. You can reach us using the given methods</p>
 
+  <div class="container notification-bar text-center bg-light text-success float font-weight-bold">
+    <h1>AAAS</h1>
+  </div>
+
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-s-12 text-center">
@@ -80,15 +84,15 @@
         <form action="" class="p-5 ml-5 mr-5">
           <!-- Form Group for Each Field -->
           <div class="form-group">
-            <input type="text" placeholder="Enter your name" class="form-control">
+            <input type="text" placeholder="Enter your name" required class="form-control">
           </div>
 
           <div class="form-group">
-            <input type="text" placeholder="Enter your email" class="form-control">
+            <input type="text" id="email" placeholder="Enter your email" required class="form-control">
           </div>
 
           <div class="form-group">
-            <input type="text" placeholder="Enter your phone" class="form-control">
+            <input type="text" placeholder="Enter your phone" required class="form-control">
           </div>
 
           <div class="form-group">
@@ -122,7 +126,7 @@
 
 
     <!-- Javscript file for logics -->
-    <script type="text/javascript" src="./javascript/script.js"></script>
+    <script type="text/javascript" src="./javascript/logic.js"></script>
 
     <!-- Script section for javascript files -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
